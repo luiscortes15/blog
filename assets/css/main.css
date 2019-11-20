@@ -61,14 +61,13 @@ a {
 
 header {
   max-width: 100%;
-  background: white;
+  background: #bb5656;
   padding: 20px;
 }
 
 nav {
   width: 100%;
   margin-bottom: 1em;
-  background: #d1cdcd;
 }
 
 .logo {
@@ -81,7 +80,7 @@ ul {
   padding: 0;
   margin: 0;
   overflow: hidden;
-  color: white;
+  color: #647AD4;
   font-weight: 300;
   text-align: center;
   transition: max-height 0.5s;
@@ -100,7 +99,7 @@ ul {
 
 .nav-item {
   display: inline-block;
-  padding: 20px;
+  padding: 10px;
   font-size: 1.2em;
 }
 
@@ -136,13 +135,15 @@ h1 {
 .tit {
   color: white;
   font-size: 30px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding: 5px;
-  margin-left: 10px;
+  text-align: center;
 }
 
 .conte {
-  background: blue;
+  background: #CDCBCB;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 .label {
@@ -151,12 +152,14 @@ h1 {
 }
 
 .lab {
-  color: white;
+  color: #587BD7;
+  padding: 15px;
 }
 
 .hora {
   text-align: end;
   margin-right: 20px;
+  color: #587BD7;
 }
 
 .chingon {
@@ -186,6 +189,25 @@ h1 {
 
 .tex {
   font-family: "Roboto", sans-serif;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.princi {
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  background: #CFCCCC;
+}
+
+.control {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.is-primary.textarea {
+  border-color: #6f706381;
 }
 
 /*# sourceMappingURL=main.css.map */
